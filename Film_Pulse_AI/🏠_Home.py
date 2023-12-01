@@ -38,7 +38,7 @@ col1, col2, col3 = st.columns([1,1,1])
 with col1:
     st.write("")
 with col2:
-    image = Image.open('C:/Users/wilders/Desktop/Film_Pulse_AI/Logo film Pulse AI-PhotoRoom_mod.png')
+    image = Image.open('Film_Pulse_AI/Logo film Pulse AI-PhotoRoom_mod.png')
     st.image(image, width=400, use_column_width=False)
 with col3:
     st.write("")
@@ -55,7 +55,7 @@ st.header(" ")
 base_poster = "https://image.tmdb.org/t/p/w600_and_h900_bestv2"
 
 # Lien de notre dataset de films
-link = r"C:\Users\wilders\Desktop\Film_Pulse_AI\df_film_pulse_AI.csv"
+link = r"Film_Pulse_AI/df_Film_Pulse_AI.csv"
 
 # Importation du dataset
 
