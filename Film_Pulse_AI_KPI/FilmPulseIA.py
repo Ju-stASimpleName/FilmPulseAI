@@ -27,8 +27,8 @@ with col3:
 st.markdown("<div style='text-align: center;'><h1>KPIs : compréhension de votre base de données IMDB/TMBD filtrée</h1></div>", unsafe_allow_html=True)
 
 # Importation des data sets
-link_df_FilmPulseAI = r"C:\Users\wilders\Desktop\Film_Pulse_AI_KPI\df_Pulse_AI.csv"
-link_df_acteurs = r"C:\Users\wilders\Desktop\Film_Pulse_AI_KPI\df_acteurs.csv"
+link_df_FilmPulseAI = r"Film_Pulse_AI_KPI/df_Pulse_AI.csv"
+link_df_acteurs = r"Film_Pulse_AI_KPI/df_acteurs.csv"
 
 # Lecture du data set
 df_FilmPulseAI = pd.read_csv(link_df_FilmPulseAI)
