@@ -18,7 +18,7 @@ col1, col2, col3 = st.columns([2,1,2])
 with col1:
     st.write("")
 with col2:
-    image = Image.open('C:\\Users\\Wilders\\Desktop\\Film_Pulse_AI_KPI\\Logo_film_Pulse_AI.PNG')
+    image = Image.open('Film_Pulse_AI_KPI/Logo_film_Pulse_AI.PNG')
     st.image(image, width=300, use_column_width=False)
 with col3:
     st.write("")
