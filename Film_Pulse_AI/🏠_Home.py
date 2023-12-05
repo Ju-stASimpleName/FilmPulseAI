@@ -84,7 +84,7 @@ for index, row in df_filtre_film.iterrows():
     
     # Afficher les détails dans la deuxième colonne
     with col_details:
-        st.write('''### Titre:''', row['Titre'])
+        st.write(row['Titre'])
         st.write('''### Année de sortie:''', row['Annee_de_sortie'])
         st.write('''### Durée:''', row['Duree'])
         st.write('''### Genre:''', row['Genre'])
@@ -172,7 +172,7 @@ with col_affiche1:
 
 # Afficher les détails du 1er film dans la deuxième colonne
 with col_details1:
-    st.write('''### Titre:''', film1[0])
+    st.write(film1[0])
     st.write('''###### Année de sortie:''', film1[1])
     st.write('''###### Durée:''', film1[2])
     st.write('''###### Genre:''', film1[3])
@@ -191,7 +191,7 @@ with col_affiche2:
     
 # Afficher les détails du 2ème film dans la deuxième colonne
 with col_details2:
-    st.write('''### Titre:''', film2[0])
+    st.write(film2[0])
     st.write('''###### Année de sortie:''', film2[1])
     st.write('''###### Durée:''', film2[2])
     st.write('''###### Genre:''', film2[3])
@@ -210,7 +210,7 @@ with col_affiche3:
     
 # Afficher les détails du 3ème film dans la deuxième colonne
 with col_details3:
-    st.write('''### Titre:''', film3[0])
+    st.write(film3[0])
     st.write('''###### Année de sortie:''', film3[1])
     st.write('''###### Durée:''', film3[2])
     st.write('''###### Genre:''', film3[3])
